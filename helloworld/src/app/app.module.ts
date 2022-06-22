@@ -6,16 +6,22 @@ import { AppComponent } from './app.component';
 import { TestComponent } from './test/test.component';
 import { HomeComponent } from './home/home.component';
 
+import {ButtonModule} from 'primeng/button';
+import {TabMenuModule} from 'primeng/tabmenu';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     TestComponent,
-    HomeComponent
+    HomeComponent,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ButtonModule,
+    TabMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
