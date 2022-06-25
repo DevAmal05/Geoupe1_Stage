@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 
 import {ButtonModule} from 'primeng/button';
 import {TabMenuModule} from 'primeng/tabmenu';
+import { Page404Component } from './page404/page404.component';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import {TabMenuModule} from 'primeng/tabmenu';
     AppComponent,
     TestComponent,
     HomeComponent,
+    Page404Component,
     
   ],
   imports: [

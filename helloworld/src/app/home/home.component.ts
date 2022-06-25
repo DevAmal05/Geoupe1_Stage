@@ -7,6 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+
+
+  title="Bienvenue";
+  imageUrl="assets/image.jpg";
+
+  nameList=['Ali','Ahmed','Imen'];
+  condition=true
+  date=new Date()
+
+ 
+
   constructor() { }
 
   ngOnInit(): void {

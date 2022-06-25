@@ -1,3 +1,4 @@
+<!--  
 <h1>HOME</h1>
 <button routerLink="/test">Test</button>
 <button type="button" class="btn btn-primary">Primary</button>
@@ -30,3 +31,22 @@
       </tr>
     </tbody>
   </table>
+
+   -->
+
+   <h1>{{title}}</h1>
+   <div *ngIf="condition">
+    <img [src]="imageUrl" alt="image" width="100px">
+   </div>
+  
+   <ul *ngFor="let name of nameList">
+    <li>{{name}}</li>
+   
+   </ul>
+
+   <p>{{date | date:'medium'}}</p>
+   <p>{{350 | currency:'TND'}}</p>
+   <p>{{'Hello' | lowercase}}</p>
+
+
+   
